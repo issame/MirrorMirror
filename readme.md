@@ -16,6 +16,25 @@ Documentation for the framework can be found on the [Lumen website](http://lumen
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-### License
+### Install
 
-The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Clone the MirrorMirror web app with this command:
+
+>git clone https://github.com/ctrlaltdylan/MirrorMirror.git
+
+Install Composer which will install Lumen’s dependencies:
+
+>curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+
+And use composer into install Lumen’s dependencies to get MirrorMirror up and running:
+
+>cd MirrorMirror composer install
+
+Goto to http://localhost and you should see your version of Mirror Mirror up and running!
+
+Current Features:
+------------------
+* Displays forecast and animated weather icon.
+* Displays Date and Time.
+* Displays a random greeting, currently there’s only one but planning on adding more.
+* There definitely needs to be more work to make this installation and customization process easier but I’m already thinking of ways to improve it. I hope you enjoy building/using your own magic mirror was much as I did mine!
